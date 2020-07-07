@@ -1,0 +1,15 @@
+.main{
+  margin-top: 35px;
+  margin-left: 260px; 
+  padding-left: 45px;
+  padding-right: 45px;
+
+  &-label{
+    margin-bottom: 15px;
+  }
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}

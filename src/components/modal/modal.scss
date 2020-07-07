@@ -1,0 +1,35 @@
+.modal{
+    padding: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    &-img{
+        max-width: 250px;
+        max-height: 375px;
+        margin-left: 15px;
+    }
+
+    &-content{
+        position: relative;
+        margin-left: 20px;
+    }
+
+    &-title{
+        margin: 0px 0px 25px 0px;
+        font-size: 24px;
+    }
+
+    &-subTitle{
+        display: block;
+        margin: 0px 0px 30px 0px;
+    }
+
+    &-text{
+        margin: 0px;
+        margin-bottom:35px;
+    }
+
+    &-bottomText{
+        position: absolute;
+        bottom: 0px;
+    }
+}
