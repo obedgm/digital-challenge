@@ -1,0 +1,37 @@
+.topMenu{
+    background-color: var(--gray-100);
+    padding:15px;
+    margin-bottom: 15px;
+    top: 0;
+    &-inputDiv{
+        margin-bottom: 15px;
+    }
+}
+
+.field{
+    display: flex;
+    width: 100%;
+    border-bottom:2px solid var(--primary-blue);
+
+    &-input{
+        width: 100%;
+        border: none;
+        padding: 5px;
+        outline: none;
+        color: var(--primary-blue);
+        background-color: transparent;
+        font-weight: 700;
+        font-size: 14px;
+
+        &::placeholder { 
+            color: var(--primary-blue);
+            font-weight: 300;
+            opacity: 0.8; /* Firefox */
+          }
+    }
+
+    &-icon{
+        height: 35px;
+        width: 35px;
+    }
+}
